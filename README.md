@@ -1,13 +1,13 @@
 # **Object_detection_RaspberryPi**
 
 
-[![Optional Badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://shields.io)  A short description of your project and what it does.
+[![Optional Badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://shields.io)  Uses various models and algorithms to detect faces on respberry pi.
 
 ## **Features**
 
-* **Bold Feature 1:** Describe the feature in detail.
-* **Bold Feature 2:** Describe the feature in detail.
-* You can add more features with bold formatting.
+* **Optimized to Run on Respberry pi**.
+* **Converted Models into TFLite**. 
+* **Low inference time and increase fps**.
 
 ## **Screenshots/Images**
 
