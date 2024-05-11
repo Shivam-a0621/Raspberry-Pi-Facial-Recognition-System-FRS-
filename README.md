@@ -1,4 +1,4 @@
-# **Object_detection_RaspberryPi**
+# **Object_detection_RaspberryPi  🦱**
 
 
 [![Optional Badge](https://img.shields.io/badge/license-MIT-blue.svg)](https://shields.io)  Uses various models and algorithms to detect faces on respberry pi.
@@ -11,43 +11,19 @@
 
 ## **Screenshots/Images**
 
-![Alt text for image 1](path/to/image1.png)  ![Alt text for image 2](path/to/image2.png)  ## **Getting Started**
+![Alt text for image 1](https://github.com/Shivam-a0621/Object_detection_RaspberryPi/blob/main/train_batch270%20(1).jpg)  
+## **Getting Started**
 
-1. Explain the installation process here.
-2. Mention any dependencies or prerequisites.
+1. Dependencies used - opencv , yolo, ultralytics, tensorflow, tflite , pandas .
+2. Also used yolo for live face recognition and comparision.
+3. LabelImg is used to label the images for training the yolo model.
+   
 
-## **Usage**
 
-Provide instructions on how to use your project. You can include code snippets here.
+## **Usage 🦳**
+1. ***Hardware Setup: Connect your camera module following the official Raspberry Pi instructions.***
+2. ***Software Setup: Clone your project, navigate to the directory, and install any additional libraries (pip3 install <library_name>).***
+3. **Train or Run: Train your model with your own dataset , then locate and run the main script (python3 <script_name>.py).***
+4. ***Output: The program displays a live camera feed with bounding boxes around detected faces. If trained, recognized faces will be labeled.***
 
-## **Contributing**
 
-If you'd like users to contribute, outline your contribution guidelines here.
-
-## **License**
-
-Specify the license under which your project is distributed.
-
-## **Contact**
-
-* [Your Name](link to your profile/website)  * [Email Address](your_email@example.com)  ```
-
-**Explanation:**
-
-* Lines starting with `#` are headings. You can use `##` for subheadings and so on. Bold text is achieved with `**text**`.
-* Image display uses the following syntax: `![Alt text](path/to/image.png)`. Make sure to replace the placeholder text and path with your actual information. The path can be relative (if the image is in the same folder as the README) or absolute (a URL pointing to the image).
-    * **Important:**  For images stored within your repository, use the following format to ensure proper rendering on GitHub:
-
-    ```markdown
-    ![Alt text](https://raw.githubusercontent.com/<username>/<repo name>/<branch>/path/to/image.png)
-    ```
-
-    Replace `<username>`, `<repo name>`, `<branch>`, and `<path to image.png>` with your specific details.
-
-* This is a basic structure, feel free to add more sections like "Known Issues," "Changelog," etc.
-
-**Tips:**
-
-* Use emojis to make your README more visually appealing.  Search online for "[https://www.freetool.dev/emoji-picker](https://www.freetool.dev/emoji-picker)" to find options.
-* Keep your README concise and informative. 
-* Proofread your README carefully before publishing your project.
